@@ -16,7 +16,15 @@ nav {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    /* Removes underline */
+    color: inherit;
+    /* Inherits text color from parent */
+}
+
 nav ul {
+    text-decoration: none;
     display: flex;
     list-style: none;
     gap: 24px;
@@ -55,6 +63,31 @@ button {
     align-items: center;
 }
 
+.button-overlay {
+    position: absolute;
+    bottom: 26%;
+    /* adjust as needed */
+    left: 22%;
+    display: flex;
+    gap: 6px;
+}
+
+.button-overlay button {
+    height: 21px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1px 19px;
+    font-weight: bold;
+    font-size: 10.4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button-overlay button:hover {
+    background-color: black;
+    color: white;
+}
+
 .main-logo {
     display: flex;
     max-width: 100%;
@@ -62,4 +95,11 @@ button {
     padding: 0%;
     height: 100%;
     color: grey;
+}
+
+button.login:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
