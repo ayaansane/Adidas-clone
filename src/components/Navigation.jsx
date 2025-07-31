@@ -1,15 +1,12 @@
 const Navigation = () => {
   return (
     <>
-      {/* Top Bar */}
-      <div className="topbar">
-        <p>FAST, FREE DELIVERY WITH PRIME</p>
-      </div>
-
+      
       {/* Main Navbar */}
-      <nav>
+      <div className="navigationbar">
+        <nav>
         <div className="logo">
-          <img src="adddidasss.png" alt="logo" height="60px" width="80px" />
+          <img src="adidas.png" alt="logo" height="60px" width="80px" />
         </div>
 
         <ul>
@@ -20,9 +17,19 @@ const Navigation = () => {
           <li><a href="#">Sale</a></li>
           <li><a href="#">New & Trending</a></li>
         </ul>
+        <div>
 
-        <button className="login">Login</button>
+          <button className="login">Login</button>
+        <button className="login">Signup</button>
+
+        </div>
+        <div>
+
+        </div>
       </nav>
+      </div>
+
+      <div className="midbar"> <p> Save up to 40% on tons of styles.</p> </div>
     </>
   );
 };

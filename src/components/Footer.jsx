@@ -8,7 +8,7 @@ const Footer = () =>{
 {/* bluebox*/}
 
 <div className="bluebox">
-<h2>JOIN OUR ADICLUB & GET 15% OFF <button> SIGN UP FOR FREE → </button> </h2> 
+<h2>JOIN OUR ADICLUB & GET 15% OFF <button href="#" className="signup"> SIGN UP FOR FREE → </button> </h2> 
 </div>
 
 
