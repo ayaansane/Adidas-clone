@@ -50,42 +50,81 @@ body {
 
 /* Navbar styling */
 
-.navigationbar {
-    border: #D3D3D3;
-    border-style: groove;
-    border-top: 0;
-    border-bottom: 0.1;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1280px;
+    max-width: 100%;
     margin: auto;
     height: 72px;
+    padding: 0 60px;
+    gap: 30px;
 }
 
-.midbar {
+
+/* Logo section */
+
+.logoleft {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* Menu section */
+
+.navmenu {
+    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ebeef3;
-    color: rgb(0, 0, 0);
-    height: 37px;
-    font-size: 14px;
-    overflow: hidden;
 }
 
-nav ul {
+.navmenu ul {
     display: flex;
     list-style: none;
     gap: 24px;
+    padding: 0;
+    margin: 0;
 }
 
-a {
+.navmenu li a {
     text-decoration: none;
-    color: inherit;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navmenu li a:hover {
+    color: #555;
+}
+
+
+/* Credentials section */
+
+.creds {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.login {
+    padding: 6px 14px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease;
 }
 
 
@@ -110,12 +149,49 @@ button.login:hover,
 
 /* Main logo and overlay styling */
 
+.midbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebeef3;
+    color: rgb(0, 0, 0);
+    height: 37px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
 .body {
     position: relative;
     display: flex;
-    width: fit-content;
     margin: auto;
     align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.brandimage {
+    width: 100%;
+    height: 100%;
+}
+
+.brandimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.button-overlay {
+    position: absolute;
+    top: 80%;
+    /* Adjust to position as needed */
+    left: 25%;
+    transform: translate(-50%, -50%);
+    /* Centered */
+    z-index: 10;
+    /* Must be higher than image */
+    display: flex;
+    gap: 10px;
 }
 
 .main-logo {
@@ -124,42 +200,10 @@ button.login:hover,
     height: 80%;
     margin: auto;
     z-index: 2;
-    /* Make sure it's above the background */
-}
-
-
-/* To place another image behind the logo */
-
-.body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('your-background.jpg');
-    /* Change to your image path */
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-}
-
-
-/* Buttons on image */
-
-.button-overlay {
-    position: absolute;
-    bottom: 26%;
-    right: -50%;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    z-index: 3;
-    /* Above background and logo */
 }
 
 .button-overlay button {
-    height: 32px;
+    height: 20px;
     background-color: white;
     border: 1px solid black;
     padding: 4px 20px;
@@ -187,9 +231,9 @@ button.login:hover,
 }
 
 .policybar {
-    /* Placeholder – add your styles */
+    border: #111;
 }
 
 .listbox {
-    /* Placeholder – add your styles */
+    border: #0085CF;
 }
