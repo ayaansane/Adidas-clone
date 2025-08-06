@@ -8,7 +8,7 @@ const Footer = () =>{
 {/* bluebox*/}
 
 <div className="bluebox">
-<h2>JOIN OUR ADICLUB & GET 15% OFF <button href="#" className="signup"> SIGN UP FOR FREE → </button> </h2> 
+<h2>JOIN OUR ADICLUB & GET 15% OFF <a href="#"><button className="signup"> SIGN UP FOR FREE → </button> </a> </h2> 
 </div>
 
 
@@ -103,12 +103,16 @@ const Footer = () =>{
 <div>
 <h4> FOLLOW US </h4>
 <ul>
-    
-    <li> <button> Insta </button></li>
-    <li> <button> Facebook </button></li>
-    <li> <button> X </button></li>
-    <li> <button> Pinterest</button></li>
-    <li> <button> Youtube </button></li>
+    <div className="social-icons">
+  <button><i className="fab fa-facebook-f"></i></button>
+  <button><i className="fab fa-twitter"></i></button>
+  <button><i className="fab fa-instagram"></i></button>
+  <button><i className="fab fa-pinterest"></i></button>
+  <button><i className="fab fa-youtube"></i></button>
+</div>
+
+
+
     
 </ul>
 </div>

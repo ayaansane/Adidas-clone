@@ -220,20 +220,3 @@ button.login:hover,
     text-align: center;
     padding: 20px;
 }
-
-.signup {
-    padding: 10px 20px;
-    color: black;
-    border: none;
-    font-weight: bold;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.policybar {
-    border: #111;
-}
-
-.listbox {
-    border: #0085CF;
-}
