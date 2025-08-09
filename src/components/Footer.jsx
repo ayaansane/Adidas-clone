@@ -23,10 +23,10 @@ const Footer = () =>{
     <li> Clothing</li>
     <li> Acessories</li>
     <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
+    <li> Clothing</li>
+    <li> New Arrivals</li>
+    <li> Best Sellers</li>
+    <li> Release Date</li>
 
 
 
@@ -38,15 +38,15 @@ const Footer = () =>{
 <h4> SPORTS </h4>
 <ul>
     
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
+    <li> Soccer</li>
+    <li> Basketball</li>
+    <li> Football</li>
+    <li> Tennis</li>
+    <li> Running</li>
+    <li> Workout</li>
+    <li> Outdoor</li>
+    <li> Skateboarding</li>
+    <li> Baseball</li>
 </ul>
 </div>
 
@@ -54,14 +54,16 @@ const Footer = () =>{
 <h4> COLLECTIONS </h4>
 <ul>
     
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
+    <li>adicolor</li>
+    <li> Ultraboost</li>
+    <li> Forum</li>
+    <li> Superstar</li>
+    <li> Tiro</li>
+    <li>Running Shoes</li>
+    <li> adilette</li>
+    <li>Stan Smith</li>
+    <li> adizero</li>
+    <li>Cloudfoam Pure</li>
 </ul>
 </div>
 
@@ -69,14 +71,18 @@ const Footer = () =>{
 <h4> SUPPORT </h4>
 <ul>
     
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
+    <li> Help</li>
+    <li> Returns & Exchanges</li>
+    <li> Shipping</li>
+    <li> Order Tracker</li>
+    <li> Store Locator</li>
+    <li> Size Charts</li>
+    <li> Gift Card Balance</li>
+    <li>How to Clean Shoes</li>
+    <li>Bra Fit Guide</li>
+    <li>Breathing for Running</li>
+    <li>Promotions</li>
+    <li>Sitemap</li>
 </ul>
 </div>
 
@@ -84,20 +90,21 @@ const Footer = () =>{
 <h4> COMPANY INFO </h4>
 <ul>
     
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
-    <li> Gift Cards</li>
+    <li> About Us</li>
+    <li> Student Discount</li>
+    <li> Military & Healthcare Discount</li>
+    <li> adidas Stories</li>
+    <li> adidas Apps</li>
+    <li> Impact</li>
+    <li> People</li>
+    <li> Planet</li>
+    <li> adiClub</li>
+    <li> Affiliates</li>
+    <li> Press</li>
+    <li> Careers</li>
+    <li> California Transparency in Supply Chains Act</li>
+    <li> Responsible Disclosure</li>
+    <li>Transparency in Coverage</li>
 </ul>
 </div>
 <div>
